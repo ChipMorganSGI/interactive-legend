@@ -23,7 +23,9 @@
         packages: [
             {
                 name: "Application",
-                location: "" + appPath
+                // location: `${appPath}`
+                // Chip hack to address running the app from the root of the web server
+                location: "/"
             },
             {
                 name: "ApplicationBase",
