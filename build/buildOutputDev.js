@@ -33,3 +33,5 @@ copydir.sync("./devConfig", "./dist/config");
 copydir.sync("./assets", "./dist/assets");
 
 copydir.sync("./calcite-web-1.2.5", "./dist/calcite-web-1.2.5");
+
+copydir.sync("./node_modules", "./dist/node_modules");
