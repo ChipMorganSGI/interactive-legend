@@ -52,7 +52,9 @@
     "locale"
   ],
   "webMap": {
-    "default": "ddf28dc057b8400dbfa148ef403f7c57",
+    "power_plants": "ddf28dc057b8400dbfa148ef403f7c57",
+    "default": "9b95c936be734df499b2e6ec6a79073d",
+    "sgi_system_map": "0780406b74ef48b991f818dee671f12f",
     "fetch": true
   },
   "webScene": {
