@@ -635,6 +635,7 @@ define(["require", "exports", "tslib", "dojo/i18n!./nls/resources", "Application
                         view.constraints.maxZoom = -1;
                         view.constraints.minScale = 0;
                         view.constraints.maxScale = 0;
+                        view.constraints.snapToZoom = false;
                         if (_this._initialExtent) {
                             view.goTo(_this._initialExtent);
                         }

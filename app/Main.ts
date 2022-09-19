@@ -893,6 +893,7 @@ class InteractiveLegendApp {
               view.constraints.maxZoom = -1;
               view.constraints.minScale = 0;
               view.constraints.maxScale = 0;
+              view.constraints.snapToZoom = false;
               if (this._initialExtent) {
                 view.goTo(this._initialExtent);
               }
